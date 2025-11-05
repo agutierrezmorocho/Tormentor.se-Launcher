@@ -11,13 +11,14 @@ A report containing the standar output of the tormentor pipeline is created auto
 # How to use launch_tor
 This is the guide for using this script, the same information will be shown when using "launch_tor -h" in the terminal. 
 
-Usage: $(basename $0) -i <input_dir> -t <threads> -o <output_directory> -d <data_dir> "
-	Required arguments:
-	    -i <path_to_input_dir>	Directory where all the samples directories are stored
+Usage: $(basename $0) -i <input_dir> -t <threads> -o <output_directory> -d <data_dir>
+
+Required arguments:
+		-i <path_to_input_dir>	Directory where all the samples directories are stored
 	    -t <threads>		Threads used by the process. Value [Integer]
 	    -o <path_to_output_dir>	Output directory where all the proccessed files wil be placed
 	    -d <path_to_data_dir>	Custom database containing oblin sequences and ribozymes sequences
-	  Optional arguments:
+Optional arguments:
 		  -h	Show the help info
 
 
