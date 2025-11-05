@@ -14,11 +14,20 @@ This is the guide for using this script, the same information will be shown when
 Usage: $(basename $0) -i <input_dir> -t <threads> -o <output_directory> -d <data_dir>
 
 Required arguments:
-		-i <path_to_input_dir>	Directory where all the samples directories are stored
-	    -t <threads>		Threads used by the process. Value [Integer]
-	    -o <path_to_output_dir>	Output directory where all the proccessed files wil be placed
-	    -d <path_to_data_dir>	Custom database containing oblin sequences and ribozymes sequences
+
+-i <path_to_input_dir>	Directory where all the samples directories are stored
+
+-t <threads>		Threads used by the process. Value [Integer]
+
+-o <path_to_output_dir>	Output directory where all the proccessed files wil be placed
+
+-d <path_to_data_dir>	Custom database containing oblin sequences and ribozymes sequences
+
 Optional arguments:
-		  -h	Show the help info
+
+-h	Show the help info
+
+# Bibliography
+Kremer, F (2024). Tormentor: An obelisk prediction and annotation pipeline.
 
 
